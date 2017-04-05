@@ -2,7 +2,7 @@
 
 # upgrade and update
 sudo pacman -Syy --noconfirm
-sudo pacman -sudo --noconfirm
+sudo pacman -Su --noconfirm
 
 # install yaourt
 sudo pacman -S --noconfirm yaourt
