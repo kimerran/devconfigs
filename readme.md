@@ -1,3 +1,3 @@
 ## devconfigs
 
-personal customizations
+dev machine customizations
