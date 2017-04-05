@@ -19,10 +19,6 @@ sudo pacman -S --noconfirm NPM
 # IDE
 yaourt -S --noconfirm visual-studio-code
 
-# terminal
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-cp ./configs/.zshrc $HOME/.zshrc
-
 # powerline-fonts
 /bin/bash ./fonts-build/install-powerline-fonts.sh
 
@@ -33,3 +29,7 @@ cp ./configs/.zshrc $HOME/.zshrc
 sudo pacman -S --noconfirm elixir
 sudo pacman -S --noconfirm postgresql
 sudo pacman -S --noconfirm mariadb
+
+# terminal
+cp ./configs/.zshrc $HOME/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
