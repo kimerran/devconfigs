@@ -14,7 +14,7 @@ sudo pacman -S --noconfirm zsh
 
 # node and npm
 sudo pacman -S --noconfirm nodejs
-sudo pacman -S --noconfirm NPM
+sudo pacman -S --noconfirm npm
 
 # IDE
 yaourt -S --noconfirm visual-studio-code
